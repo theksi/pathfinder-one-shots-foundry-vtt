@@ -35,5 +35,8 @@
         {
             "name" : "compendium-folders"
         }
-    ]
+    ],
+    "url": "https://github.com/theksi/pathfinder-one-shots-foundry-vtt",
+    "manifest": "https://github.com/theksi/pathfinder-one-shots-foundry-vtt/raw/main/module.json",
+    "download": "https://github.com/theksi/pathfinder-one-shots-foundry-vtt/archive/main.zip"
 }
