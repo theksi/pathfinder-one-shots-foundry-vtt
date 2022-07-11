@@ -1,0 +1,39 @@
+{
+    "name": "pathfinder-one-shots",
+    "title": "Paizo One-shot scenarios",
+    "description": "Paizo One-shot scenarios",
+    "version": "1.1.1",
+    "author": "Mr.Fred",
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "9",
+    "system" : ["pf2e"],
+    "packs": [
+
+        {
+            "name": "pathfinder-one-shot-actor",
+            "label": "Paizo-pf2e one shots scenarios actors",
+            "path": "packs/pathfinder-one-shot-actor.db",
+            "entity": "Actor",
+            "type": "Actor"
+        },
+        {
+            "name": "pathfinder-one-shot-journals",
+            "label": "Paizo-pf2e one shots scenarios journals",
+            "path": "packs/pathfinder-one-shot-journals.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "pathfinder-one-shot-scenes",
+            "label": "Paizo-pf2e one shots scenarios scenes",
+            "path": "packs/pathfinder-one-shot-scenes.db",
+            "entity": "Scene",
+            "type": "Scene"
+        }     
+    ],
+    "dependencies" : [
+        {
+            "name" : "compendium-folders"
+        }
+    ]
+}
